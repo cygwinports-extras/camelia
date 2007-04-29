@@ -1,0 +1,98 @@
+camelia
+------------------------------------------
+Camelia is a fairly powerful IDE that offers a nice alternative for 
+OCaml programmers of all skill levels.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  ocaml
+  qt3-3.3.7-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+  qt3-devel-3.3.7-1
+
+Canonical website:
+  http://camelia.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/camelia/
+
+-------------------------------------------
+
+Build instructions:
+  unpack camelia-1.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./camelia-1.1-X.cygport all
+
+This will create:
+  /usr/src/camelia-1.1-X-src.tar.bz2
+  /usr/src/camelia-1.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/camelia.exe
+  /usr/lib/camelia/icons/after.png
+  /usr/lib/camelia/icons/backstep.png
+  /usr/lib/camelia/icons/before.png
+  /usr/lib/camelia/icons/break-after-off.png
+  /usr/lib/camelia/icons/break-after-on.png
+  /usr/lib/camelia/icons/break-before-off.png
+  /usr/lib/camelia/icons/break-before-on.png
+  /usr/lib/camelia/icons/break-in-off.png
+  /usr/lib/camelia/icons/break-in-on.png
+  /usr/lib/camelia/icons/break.png
+  /usr/lib/camelia/icons/breakpoint.png
+  /usr/lib/camelia/icons/camelia.ico
+  /usr/lib/camelia/icons/camelia.png
+  /usr/lib/camelia/icons/debug.png
+  /usr/lib/camelia/icons/error.png
+  /usr/lib/camelia/icons/event.png
+  /usr/lib/camelia/icons/finish.png
+  /usr/lib/camelia/icons/go.png
+  /usr/lib/camelia/icons/indent.png
+  /usr/lib/camelia/icons/next.png
+  /usr/lib/camelia/icons/previous.png
+  /usr/lib/camelia/icons/reverse.png
+  /usr/lib/camelia/icons/run.png
+  /usr/lib/camelia/icons/start.png
+  /usr/lib/camelia/icons/step.png
+  /usr/lib/camelia/icons/stop.png
+  /usr/lib/camelia/icons/tip.png
+  /usr/lib/camelia/icons/type.png
+  /usr/lib/camelia/tips/01.tip
+  /usr/lib/camelia/tips/02.tip
+  /usr/lib/camelia/tips/03.tip
+  /usr/lib/camelia/tips/04.tip
+  /usr/lib/camelia/tips/05.tip
+  /usr/lib/camelia/tips/06.tip
+  /usr/lib/camelia/tips/07.tip
+  /usr/lib/camelia/tips/08.tip
+  /usr/lib/camelia/tips/help.txt
+  /usr/lib/camelia/tips/pats.txt
+  /usr/share/doc/Cygwin/camelia-1.1.README
+  /usr/share/doc/camelia-1.1/INSTALL
+  /usr/share/doc/camelia-1.1/LICENSE
+  /usr/share/doc/camelia-1.1/README
+  /usr/share/doc/camelia-1.1/TODO
+  /usr/share/pixmaps/camelia.png
+
+------------------
+
+Port Notes:
+
+----- version 1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

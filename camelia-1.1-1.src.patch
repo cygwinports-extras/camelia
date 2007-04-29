@@ -1,0 +1,16 @@
+diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x autom4te.cache -x config.cache -x config.log -x config.status -x config.h -x config.h.in -x ABOUT-NLS -x Makefile.in.in -x Makevars.template -x '*.class' -x '*.pyc' -x '*.mo' -x '*.gmo' -x '*.orig' -x '*.rej' -x '*.spec' -x '*.temp' -x '*~' -x '*.stackdump' -x COPYING -x INSTALL -x compile -x config-ml.in -x config.guess -x config.sub -x depcomp -x elisp-comp -x install-sh -x ltmain.sh -x mdate-sh -x missing -x mkinstalldirs -x py-compile -x symlink-tree -x texinfo.tex -x ylwrap -x omf.make -x xmldocs.make -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x intltool-extract -x intltool-extract.in -x intltool-merge -x intltool-merge.in -x intltool-update -x intltool-update.in origsrc/camelia/src/camelia.pro src/camelia/src/camelia.pro
+--- origsrc/camelia/src/camelia.pro	2005-09-21 10:18:12.000000000 -0500
++++ src/camelia/src/camelia.pro	2007-04-26 03:17:45.390625000 -0500
+@@ -10,10 +10,10 @@
+ target.path = $$PREFIX/bin
+ 
+ data.path = $$PREFIX/lib/camelia
+-data.extra = cp -R ../data/* $${data.path}
++data.extra = cp -Lr ../data/* $${data.path}
+ 
+ icon.path = $$PREFIX/share/pixmaps
+-icon.extra = cp ../data/icons/camelia.png $${icon.path}
++icon.extra = cp -L ../data/icons/camelia.png $${icon.path}
+ 
+ 
+ 
